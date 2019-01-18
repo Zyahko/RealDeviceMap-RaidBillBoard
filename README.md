@@ -4,7 +4,7 @@ Billboard to show active raids sorted by which raids will end first
 # Install
 ```
 git clone https://github.com/Zyahko/RealDeviceMap-RaidBillBoard
-cp to your directory root for your site (i.e. /var/www/site/)
+cp raid.php to your directory root for your site (i.e. /var/www/site/)
 ```
 # raid.php
 Configure the database variables to match what is needed to access your RealDeviceMap Database
