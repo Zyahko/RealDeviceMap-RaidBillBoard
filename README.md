@@ -2,9 +2,10 @@
 Billboard to show active raids sorted by which raids will end first
 
 # Install
-git clone https://github.com/Zyahko/RealDeviceMap-RaidBillBoard \n
+```
+git clone https://github.com/Zyahko/RealDeviceMap-RaidBillBoard
 cp to your directory root for your site (i.e. /var/www/site/)
-
+```
 # raid.php
 Configure the database variables to match what is needed to access your RealDeviceMap Database
 You can alter the column names by changing what is between the <th></th> tags
