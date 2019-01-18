@@ -4,6 +4,7 @@ $dbuser = "rdmuser";
 $dbpass = "password";
 $dbname = "rdmdb";
 
+// Establish connection to database
 try{
     $pdo = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
     // Set the PDO error mode to exception
@@ -11,7 +12,7 @@ try{
 } catch(PDOException $e){
     die("ERROR: Could not connect. " . $e->getMessage());
 }
-
+// Query Database and Build Raid Billboard
 try 
 {
     $sql = "SELECT time_format(from_unixtime(raid_battle_timestamp), '%h:%i:%s %p'), time_format(from_unixtime(raid_end_timestamp),'%h:%i:%s %p'), raid_level, pokedex.name, gym.name from gym inner join pokedex on gym.raid_pokemon_id = pokedex.pokemon_id where raid_pokemon_id is not null && gym.name is not null order by raid_end_timestamp";   
