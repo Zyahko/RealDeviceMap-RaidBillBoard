@@ -12,3 +12,10 @@ You can alter the column names by changing what is between the <th></th> tags
 
 # create_pokedex.sql
 Run this sql statement on your RealDeviceMap database to create the table that the billboard will use to match the raid_pokemon_id to pokemon_id to pull the pokemon's name instead of showing the ID. Should be able to use "source create_pokedex.sql" or copy and paste it into mysql prompt
+
+# TO-DO
+```
+Add Gym Owner/Team
+Add Raid Boss Moveset
+Add gps link to team name 
+```
