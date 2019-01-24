@@ -24,3 +24,5 @@ Run this to create a table for the raid boss charge move just like you would for
 - ~~Add Raid Boss Moveset~~
 - Add gps link to team name 
 
+# Thanks
+Credit to SkOODaT for the geofence syntax for the sql statement and the refresh page code
