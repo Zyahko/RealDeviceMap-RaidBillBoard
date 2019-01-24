@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS quick_movedex;
 CREATE TABLE quick_movedex (
  move_id smallint(6),
  name varchar(50)
