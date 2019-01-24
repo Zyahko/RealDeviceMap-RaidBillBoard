@@ -51,7 +51,7 @@ try
                     echo "<td>" . $row[3] . "</td>";
                     echo "<td>" . $row[4] . "</td>";
                     echo "<td>" . $row[5] . "</td>";
-                    echo "<td>" . $row[6] . "</td>";
+                    echo '<td> <a href="http://www.google.com/maps?q='.$row['lat'].','.$row['lon'].'"" target="_blank" style="color: #137e80">' . $row[6] . '</a></td>';
                 echo "</tr>";
             }
             echo "</table>";
