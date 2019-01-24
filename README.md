@@ -25,5 +25,5 @@ Run this to create a table for the raid boss charge move just like you would for
 - ~~Add gps link to gym name~~
 
 # Thanks
-Credit to SkOODaT for the geofence syntax for the sql statement and the refresh page code
-Credit to CRAKD for the google maps hyperlink to the gym name
+-Credit to SkOODaT for the geofence syntax for the sql statement and the refresh page code
+-Credit to CRAKD for the google maps hyperlink to the gym name
