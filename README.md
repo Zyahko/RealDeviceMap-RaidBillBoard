@@ -20,8 +20,7 @@ Run this to create a table for the raid boss quick move just like you would for 
 Run this to create a table for the raid boss charge move just like you would for the create_pokedex.sql
 
 # TO-DO
-```
-Add Gym Owner/Team
-~~Add Raid Boss Moveset~~
-Add gps link to team name 
-```
+- Add Gym Owner/Team
+- ~~Add Raid Boss Moveset~~
+- Add gps link to team name 
+
