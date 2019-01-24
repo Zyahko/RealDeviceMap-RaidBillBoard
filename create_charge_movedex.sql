@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS charge_movedex;
 CREATE TABLE charge_movedex (
  move_id smallint(6),
  name varchar(50)
