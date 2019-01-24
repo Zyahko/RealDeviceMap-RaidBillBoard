@@ -22,7 +22,8 @@ Run this to create a table for the raid boss charge move just like you would for
 # TO-DO
 - Add Gym Owner/Team
 - ~~Add Raid Boss Moveset~~
-- Add gps link to gym name 
+- ~~Add gps link to gym name~~
 
 # Thanks
 Credit to SkOODaT for the geofence syntax for the sql statement and the refresh page code
+Credit to CRAKD for the google maps hyperlink to the gym name
