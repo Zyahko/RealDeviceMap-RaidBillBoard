@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS pokedex;
 CREATE TABLE pokedex (
  pokemon_id smallint(6), 
  name varchar(50)
