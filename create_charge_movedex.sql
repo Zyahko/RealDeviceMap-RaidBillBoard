@@ -5,6 +5,7 @@ CREATE TABLE charge_movedex (
 );
 INSERT INTO charge_movedex
 VALUES
+ (0,"N/A" ) , 
  (1,"Thunder Shock"),
  (2,"Quick Attack"),
  (3,"Scratch"),
