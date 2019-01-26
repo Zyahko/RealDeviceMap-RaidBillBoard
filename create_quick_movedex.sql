@@ -5,6 +5,7 @@ CREATE TABLE quick_movedex (
 );
 INSERT INTO quick_movedex
 VALUES
+ (0,"N/A"),
  (1,"Thunder Shock"),
  (2,"Quick Attack"),
  (3,"Scratch"),
