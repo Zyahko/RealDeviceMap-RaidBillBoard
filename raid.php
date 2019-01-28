@@ -29,7 +29,8 @@ try
            LAT -LONG))') 
            point(gym.lat, gym.lon)) && 
            raid_pokemon_id is not null && 
-           gym.name is not null 
+           gym.name is not null &&
+           raid_end_timestamp>unix_timestamp(now())
            order by raid_end_timestamp";   
         $result = $pdo->query($sql);
         if($result->rowCount() > 0){
