@@ -24,7 +24,7 @@ try
            join pokedex on gym.raid_pokemon_id = pokedex.pokemon_id 
            join quick_movedex on gym.raid_pokemon_move_1 = quick_movedex.move_id 
            join charge_movedex on gym.raid_pokemon_move_2 = charge_movedex.move_id 
-           where where ST_CONTAINS(ST_GEOMFROMTEXT('POLYGON((
+           where ST_CONTAINS(ST_GEOMFROMTEXT('POLYGON((
            LAT -LONG, 
            LAT -LONG))') 
            point(gym.lat, gym.lon)) && 
